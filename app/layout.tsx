@@ -15,7 +15,7 @@ Router.events.on('routeChangeComplete', nProgress.done)
 export default function RootLayout({ children }: { children: ReactNode }) {
   return <html lang="en">
     <head />
-    <body>
+    <body className="bg-black min-h-screen flex justify-center items-center text-white">
       {children}
     </body>
   </html>
