@@ -1,6 +1,6 @@
 function delay(s = 1) {
-  return new Promise<void>((r) => {
-    setTimeout(() => r(), s * 1000)
+  return new Promise<void>((resolve) => {
+    setTimeout(() => resolve(), s * 1000)
   })
 }
 
@@ -11,5 +11,4 @@ export default async function AppPage() {
     App Page.
   </div>
 }
-
 
