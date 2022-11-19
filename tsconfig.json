@@ -19,6 +19,11 @@
     "jsx": "preserve",
     "incremental": true,
     "checkJs": true,
+    "paths": {
+      "@blog/mine-sweeper": [
+        "./packages/mine_sweeper/src/index.tsx"
+      ]
+    },
     "plugins": [
       {
         "name": "next"
@@ -35,4 +40,3 @@
     "node_modules"
   ]
 }
-

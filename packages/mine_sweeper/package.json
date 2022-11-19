@@ -1,0 +1,6 @@
+{
+  "name": "@blog/mine-sweeper",
+  "type": "module",
+  "author": "starknt",
+  "main": "src/index.tsx"
+}
